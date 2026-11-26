@@ -1,0 +1,79 @@
+export const categories = [
+  { id: 'perfumes', name: 'Perfumes', subtitle: 'Fragrance, composed beautifully', image: '/assets/catalogue/Hacivat Perfume on Dark Marble.png' },
+  { id: 'timepieces', name: 'Timepieces', subtitle: 'A refined expression of time', image: '/assets/catalogue/watch product price750 (1).jpeg' }
+];
+
+export const products = [
+  {
+    id: 'rihl-eau-de-parfum', name: 'Rihl Eau de Parfum', price: 2800, regularPrice: 3000,
+    shortDescription: 'A refined, elegant perfume presented in a sophisticated green bottle.',
+    description: 'Rihl Eau de Parfum is presented as a distinguished IA Horologe fragrance, featuring a polished bottle and an elegant green presentation. Designed for those who appreciate understated luxury, it brings a refined presence to personal style and everyday occasions.',
+    images: ['/assets/perfumes/riahl-perfume.png'], category: 'perfumes', availability: true, featured: false
+  },
+  {
+    id: 'hacivat-dark-marble', name: 'Hacivat Eau de Parfum', price: 2800, regularPrice: 3000,
+    shortDescription: 'A blue glass eau de parfum presented on dark marble.',
+    description: 'Hacivat Eau de Parfum by IA Horologe is presented in a striking blue glass bottle with gold-accented detailing. Its polished presentation makes it a refined choice for personal style and considered gifting.',
+    images: ['/assets/catalogue/Hacivat Perfume on Dark Marble.png'], category: 'perfumes', availability: true, featured: true
+  },
+  {
+    id: 'boss-bottle-black-marble', name: 'Boss Bottle Eau de Parfum', price: 2800, regularPrice: 3000,
+    shortDescription: 'A rich black bottle accented with warm gold detailing.',
+    description: 'Boss Bottle Eau de Parfum is presented in a deep black bottle finished with a warm gold-accented label. The dramatic dark-marble setting gives this piece a confident, luxurious character.',
+    images: ['/assets/catalogue/Luxurious Black Perfume Bottle on Marble.png'], category: 'perfumes', availability: true, featured: false
+  },
+  {
+    id: 'rebel-dark-marble', name: 'Rebel Eau de Parfum', price: 2800, regularPrice: 3000,
+    shortDescription: 'A square glass bottle in a sophisticated dark-green presentation.',
+    description: 'Rebel Eau de Parfum by IA Horologe features a square glass bottle with rich green tones and gold-accented labelling. It is a polished addition to a curated fragrance collection.',
+    images: ['/assets/catalogue/Luxury Rebel Perfume on Dark Marble.png'], category: 'perfumes', availability: true, featured: true
+  },
+  {
+    id: 'imperial-valley', name: 'Imperial Valley Eau de Parfum', price: 2800, regularPrice: 3000,
+    shortDescription: 'An elegant ivory bottle with gold-accented IA Horologe detailing.',
+    description: 'Imperial Valley Eau de Parfum is presented in an ivory glass bottle with a dark cap and gold-accented IA Horologe label. Its understated presentation creates a timeless, sophisticated impression.',
+    images: ['/assets/catalogue/WhatsApp Image 2026-11-25 at 10.10.28 AM.jpeg'], category: 'perfumes', availability: true, featured: false
+  },
+  {
+    id: 'classic-silver-ivory-watch', name: 'Classic Silver and Ivory Watch', price: 500, regularPrice: 500,
+    shortDescription: 'A classic dial watch with an ivory strap and clean presentation.',
+    description: 'A classic watch featuring a silver-tone case, clear dial and ivory-coloured strap, presented with an elegant 12 Collection design.',
+    images: ['/assets/catalogue/watch product price 500 (1).jpeg'], category: 'timepieces', availability: true, featured: false
+  },
+  {
+    id: 'midnight-collection-watch', name: 'Midnight Collection Watch', price: 500, regularPrice: 500,
+    shortDescription: 'A dark dial watch with a refined leather strap.',
+    description: 'A sophisticated watch with a dark dial, polished case and leather-style strap, presented as part of the IA Horologe collection.',
+    images: ['/assets/catalogue/watch product price 500 (2).jpeg'], category: 'timepieces', availability: true, featured: false
+  },
+  {
+    id: 'gold-dial-collection-watch', name: 'Gold Dial Collection Watch', price: 500, regularPrice: 500,
+    shortDescription: 'An amber dial watch paired with a warm brown leather strap.',
+    description: 'A polished timepiece with an amber dial, contrasting markers and warm brown leather strap for an elegant everyday presentation.',
+    images: ['/assets/catalogue/watch product price 500 (3).jpeg'], category: 'timepieces', availability: true, featured: false
+  },
+  {
+    id: 'apex-brown-leather-watch', name: 'Apex Brown Leather Watch', price: 750, regularPrice: 750,
+    shortDescription: 'An Apex watch with an Arabic dial and brown leather strap.',
+    description: 'An Apex timepiece featuring a crisp dial with Arabic numerals and a brown leather strap. The balanced design offers a distinguished, understated finish.',
+    images: ['/assets/catalogue/watch product price750 (1).jpeg'], category: 'timepieces', availability: true, featured: true
+  },
+  {
+    id: 'apex-midnight-watch', name: 'Apex Midnight Watch', price: 750, regularPrice: 750,
+    shortDescription: 'A dark-toned Apex dial watch with a leather strap.',
+    description: 'A dark-toned Apex watch with Arabic numeral detailing and a leather strap, presented in a refined night-blue setting.',
+    images: ['/assets/catalogue/watch product price750 (2).jpeg'], category: 'timepieces', availability: true, featured: false
+  },
+  {
+    id: 'apex-black-edition-watch', name: 'Apex Black Edition Watch', price: 750, regularPrice: 750,
+    shortDescription: 'A black dial Apex watch with polished case accents.',
+    description: 'A black-dial Apex watch with Arabic numeral detailing and a polished silver-tone case, designed for a sleek, formal presentation.',
+    images: ['/assets/catalogue/watch product price750 (3).jpeg'], category: 'timepieces', availability: true, featured: false
+  }
+];
+
+export const heroSlides = [
+  { image: '/assets/catalogue/hero slide new img.jpeg', eyebrow: 'IA HOROLOGE', title: 'TIMELESS\nELEGANCE', subtitle: 'Discover a world of refined style and sophistication.' },
+  { image: '/assets/catalogue/hero slide.jpeg', eyebrow: 'THE SIGNATURE COLLECTION', title: 'DEFINED BY\nDISTINCTION', subtitle: 'Objects of style, selected for memorable moments.' },
+  { image: '/assets/catalogue/Hacivat Perfume on Dark Marble.png', eyebrow: 'MADE TO BE REMEMBERED', title: 'THE ART OF\nTIMELESSNESS', subtitle: 'Elegance that continues beyond the moment.' }
+];
